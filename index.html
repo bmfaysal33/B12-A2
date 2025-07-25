@@ -25,8 +25,8 @@
             <li>About us</li>
           </ul>
         </div>
-        <div>
-          <i class="fa-solid fa-cart-shopping text-2xl"></i>
+        <div class="flex justify-center items-center text-2xl">
+          <i class="fa-solid fa-cart-shopping text-2xl"></i> $56
         </div>
       </section>
 
@@ -48,7 +48,7 @@
             variety of fresh flowers that are perfect for any occasion.
           </p>
         </div>
-        <div class="lg:w-1/2">
+        <div class=" lg:w-1/2">
           <img src="assets/hero-flower.png" alt="" />
         </div>
       </section>
@@ -235,26 +235,86 @@
         <!-- Card Ends -->
       </section>
 
-              <!-- certified section  -->
-               <section class="flex flex-col lg:flex-row w-11/12 lg:w-4/5 mx-auto my-20">
+      <!-- certified section  -->
+      <section class="flex flex-col lg:flex-row w-11/12 lg:w-4/5 mx-auto my-20">
+        <div class="relative">
+          <img src="assets/flower-store.png" alt="" />
+          <img
+            src="assets/trusted-badge.png"
+            alt=""
+            class="hidden lg:block absolute -top-20 -right-20 z-10 w-48 h-48"
+          />
+        </div>
 
-                <div class="relative ">
-                  <img src="assets/flower-store.png" alt="">
-                  <img src="assets/trusted-badge.png" alt="" class="hidden lg:block absolute -top-20 -right-20 z-10 w-48 h-48">
+        <!-- Text part  -->
+        <div class="ml-10">
+          <h3 class="text-5xl font-bold my-10">Flower & Plants Lover</h3>
+          <ul class="list-disc pl-6">
+            <li>
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh.
+            </li>
+            <li class="my-8">
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh.
+            </li>
+            <li>
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+
+      <!-- Latest deals section  -->
+      <section class="flex justify-center items-center flex-col text-center w-11/12 lg:w-4/5 mx-auto my-10">
+        <div class="my-10">
+          <h2 class="text-6xl font-bold mb-9"><span class="text-orange-500">Latest</span> Deals</h2>
+          <p class="text-2xl text-gray-400">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh.
+          </p>
+        </div>
+
+        <div class="flex flex-col lg:flex-row justify-between w-full">
+
+          <div class="flex flex-col">
+
+            <div class="relative">
+              <img class="rounded-xl object-cover" src="assets/deal-bloom.png" alt="" />
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-2xl font-bold">
+                <h2>60% Off | Bloom Plant</h2>
+                <h2 class="underline">Shop now</h2>
                 </div>
+            </div>
 
-                <!-- Text part  -->
-                <div class="ml-10">
-                  <h3 class="text-5xl font-bold my-10">Flower & Plants Lover</h3>
-                  <ul class="list-disc pl-6">
-                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                    <li class="my-8">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                  </ul>
+            <div class="mt-10 relative">
+              <img class="rounded-xl object-cover" src="assets/deal-ana.png" alt="" />
+               <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-2xl font-bold">
+                <h2>30% Off | Ana Plant</h2>
+                <h2 class="underline">Shop now</h2>
                 </div>
-               </section>
+            </div>
+          </div>
 
-      <!-- Join us section  -->
+          <!-- Big image -->
+          <div class="relative mt-10">
+            <img class="rounded-xl" src="assets/deal-zabo.png" alt="" />
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-2xl lg:text-5xl font-bold">
+                <h2>25% Off | Zabo Plant</h2>
+                <h2 class="underline">Shop now</h2>
+                </div>
+          </div>
+        </div>
+      </section>
+
+              <!-- Join us section  -->
       <section
         class="text-center flex flex-col items-center justify-center mt-10 bg-[url(assets/news-letter-bg.png)] bg-cover h-96"
       >
@@ -269,13 +329,15 @@
             placeholder="write email"
             id=""
           />
-          <button class="bg-orange-500 w-1/5 text-white ">Subscribe</button>
+          <button class="bg-orange-500 w-1/5 text-white">Subscribe</button>
         </div>
       </section>
 
+
+
     </main>
 
-            <!-- Footer section  -->
+    <!-- Footer section  -->
 
     <footer class="flex gap-6 flex-col lg:flex-row justify-around p-10">
       <div>
@@ -290,7 +352,7 @@
 
       <div>
         <ul>
-         <li>Home</li>
+          <li>Home</li>
           <li>About us</li>
           <li>Blog</li>
           <li>FAQ</li>
